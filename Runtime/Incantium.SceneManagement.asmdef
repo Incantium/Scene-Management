@@ -1,6 +1,6 @@
 {
-    "name": "Incantium.SceneReference",
-    "rootNamespace": "Incantium",
+    "name": "Incantium.SceneManagement",
+    "rootNamespace": "Incantium.SceneManagement",
     "references": [
         "GUID:62e3002916f2b244091c1e25aa475991"
     ],

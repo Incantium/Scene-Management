@@ -1,8 +1,8 @@
 {
-  "name": "com.incantium.scene-reference",
+  "name": "com.incantium.scene-management",
   "version": "1.0.0",
-  "displayName": "Scene Reference",
-  "description": "Reference scenes from within the Unity Editor.",
+  "displayName": "Scene Management",
+  "description": "Manage scene loading and unloading easier with this package.",
   "unity": "2022.3",
   "documentationUrl": "https://github.com/Incantium/Scene-Reference/blob/main/README.md",
   "changelogUrl": "https://github.com/Incantium/Scene-Reference/releases",

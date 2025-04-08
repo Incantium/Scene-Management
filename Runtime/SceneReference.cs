@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace Incantium
+namespace Incantium.SceneManagement
 {
     /// <summary>
     /// Class representing a reference field for scenes.

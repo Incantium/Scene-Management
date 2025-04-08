@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Incantium.Editor
+namespace Incantium.SceneManagement.Editor
 {
     /// <summary>
     /// Class that represents the custom inspector for a scene reference.

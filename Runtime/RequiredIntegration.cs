@@ -1,10 +1,10 @@
 ﻿#if MODULE_REQUIRED
 using Incantium.Attributes;
 
-namespace Incantium
+namespace Incantium.SceneManagement
 {
     /// <summary>
-    /// Class handling the integration between <see cref="SceneReference"/> and <see cref="Required"/>.
+    /// Class handling the integration between <see cref="SceneManagement.SceneReference"/> and <see cref="Required"/>.
     /// </summary>
     public sealed partial class SceneReference : IRequireable
     {
