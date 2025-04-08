@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Incantium.SceneManagement.Editor
 {
     /// <summary>
-    /// Class that represents the custom inspector for a scene reference.
+    /// Class representing the custom inspector for a scene reference.
     /// </summary>
     [CustomPropertyDrawer(typeof(SceneReference))]
     internal sealed class SceneReferenceDrawer : PropertyDrawer
