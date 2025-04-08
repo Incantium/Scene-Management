@@ -34,15 +34,10 @@ namespace Incantium.SceneManagement
         public bool isLoaded => SceneManager.GetSceneByName(name).isLoaded;
         
         /// <summary>
-        /// Loads the scene.
-        /// </summary>
-        /// <param name="mode">If LoadSceneMode.Single, then all current scenes will be unloaded before loading.</param>
-        public void Load(LoadSceneMode mode = LoadSceneMode.Single) => SceneManager.LoadScene(name, mode);
-        
-        /// <summary>
         /// Loads the scene asynchronously in the background.
         /// </summary>
-        /// <param name="mode">If LoadSceneMode.Single, then all current scenes will be unloaded before loading.</param>
+        /// <param name="mode">If <see cref="LoadSceneMode.Single"/>, then all current scenes will be unloaded before
+        /// loading.</param>
         /// <returns>Determines if the operation has completed.</returns>
         public AsyncOperation LoadAsync(LoadSceneMode mode = LoadSceneMode.Single) => SceneManager.LoadSceneAsync(name, mode);
         
